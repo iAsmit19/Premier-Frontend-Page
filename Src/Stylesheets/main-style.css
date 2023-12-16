@@ -35,6 +35,10 @@ nav {
     padding-inline: 5%;
 }
 
+#menu-button {
+    display: none;
+}
+
 #logo {
     /* background-color: pink; */
     width: 25%;
@@ -96,7 +100,7 @@ nav {
     border-radius: 10px;
     /* background-color: rgb(255, 238, 238); */
     color: white;
-    height: calc(100% - 30vh);
+    height: 90%;
     width: 90%;
     margin: 2% 5%;
     overflow: hidden;
@@ -422,6 +426,7 @@ nav {
 #circle-svg {
     height: 80%;
     user-select: none;
+    display: flex;
 }
 
 #circle-svg img {
@@ -697,30 +702,35 @@ nav {
 #s-7-1 {
     background: url(../Assets/Section-Imgs/damn-section/part-1.png);
     background-size: cover;
+    background-position: center;
     width: 19%;
 }
 
 #s-7-2 {
     background: url(../Assets/Section-Imgs/damn-section/part-2.png);
     background-size: cover;
+    background-position: center;
     width: 19%;
 }
 
 #s-7-3 {
     background: url(../Assets/Section-Imgs/damn-section/part-3.png);
     background-size: cover;
+    background-position: center;
     width: 19%;
 }
 
 #s-7-4 {
     background: url(../Assets/Section-Imgs/damn-section/part-4.png);
     background-size: cover;
+    background-position: center;
     width: 19%;
 }
 
 #s-7-5 {
     background: url(../Assets/Section-Imgs/damn-section/part-5.png);
     background-size: cover;
+    background-position: center;
     width: 19%;
 }
 
@@ -869,4 +879,169 @@ nav {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight: 600;
+}
+
+@media (max-width: 430px) {
+    nav {
+        /* background-color: rgb(165, 165, 255); */
+        height: 5vh;
+        justify-content: space-between;
+    }
+
+    #logo h1 {
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    #logo p {
+        white-space: nowrap;
+        font-size: 6px;
+        top: 20px;
+        left: 10px;
+    }
+
+    #menu-button {
+        border: none;
+        display: block;
+        /* background-color: rgb(165, 165, 255); */
+        justify-self: end;
+    }
+
+    #nav-menu {
+        background-color: grey;
+        display: none;
+    }
+
+    #section-1 {
+        margin: 5%;
+        height: 45%;
+    }
+
+    #title-1-index {
+        font-size: 19px;
+        padding-inline: 5%;
+        padding-bottom: 20px;
+    }
+
+    #overlay #overlay-hr {
+        width: 90%;
+        align-self: start;
+        margin-inline: 5%;
+    }
+
+    #explore {
+        padding-top: 20px;
+        padding-inline: 5%;
+    }
+
+    #explore p, i {
+        font-size: 16px;
+    }
+    
+    .models-img {
+        height: 75px;
+        width: 75px;
+    }
+
+    #section-2 {
+        height: 45%;
+    }
+
+    #about-texts {
+        display: none;
+    }
+
+    #model-2 {
+        height: 100%;
+    }
+
+    .the-titles h1 {
+        font-size: 22px;
+    }
+
+    #section-3 {
+        height: 45%;
+    }
+
+    #title-4 h1 {
+        font-size: 20px;
+    }
+
+    #circle-svg {
+        height: 70%;
+    }
+
+    #section-3-text {
+        font-size: 18px;
+    }
+
+    #section-4 {
+        height: 45%;
+    }
+
+    #section-5 {
+        height: 45%;
+    }
+    
+    #update-title h3 {
+        font-size: 20px;
+    }
+
+    .update-genre p {
+        font-size: 14px;
+    }
+
+    .update-image  {
+        height: 65px;
+        width: 65px;
+    }
+
+    .segment-title {
+        padding-left: 30px;
+    }
+
+    .segment-title h3 {
+        font-size: 20px;
+    }
+
+    #section-6 {
+        display: none;
+    }
+
+    #section-7 {
+        height: 45%;
+    }
+
+    #section-8-title {
+        font-size: 8px;
+    }
+
+    #section-8-text {
+        font-size: 6px;
+    }
+
+    #section-8 {
+        height: 45%;
+    }
+
+    #premier-scroll-contents p {
+        font-size: 24px;
+    }
+
+    #footer-nav {
+        display: none;
+    }
+
+    #footer {
+        height: 15%;
+    }
+
+    #copyright p {
+        font-size: 12px;
+        text-align: center;
+    }
+    
+    #socials i {
+        font-size: 22px;
+    }
 }
